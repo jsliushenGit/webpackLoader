@@ -1,4 +1,4 @@
-const makeWaterMark = (img, text="vipkid", {
+const makeWaterMark = (img, text="jsliushen", {
   width = 250,
   height = 200,
   textAlign = 'center',
@@ -31,5 +31,5 @@ const makeWaterMark = (img, text="vipkid", {
 }
 
 module.exports = function (content) {
-  return makeWaterMark(content, 'vipkid');
+  return makeWaterMark(content, 'jsliushen');
 };
